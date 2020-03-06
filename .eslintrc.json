@@ -43,6 +43,6 @@
           "react/jsx-filename-extension": [1, { "extensions": [".ts", ".tsx"] }],
           "no-use-before-define": ["error", { "functions": false }],
           "react/prefer-stateless-function": [1, { "ignorePureComponents": false }],
-          "linebreak-style": [true, "CRLF"]
+          "linebreak-style": [0, "CRLF"]
     }
 }

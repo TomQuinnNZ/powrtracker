@@ -1,15 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Layout extends Component {
-  render() {
-    return (
-      <>
-        <div className="layout">
-          <p>Placeholder!</p>
-        </div>
-      </>
-    );
-  }
-}
+const Layout = () => (
+  <>
+    <div className="layout">
+      <p>Placeholder!</p>
+    </div>
+  </>
+);
 
 export default Layout;
