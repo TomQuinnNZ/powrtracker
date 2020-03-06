@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from './components/NavBar/NavBar';
 import LoadingScreen from './components/LoadingScreen/LoadingScreen';
 import { useAuth0 } from './react-auth0-spa';
 import Layout from './components/Layout/Layout';
@@ -24,7 +23,6 @@ function App() {
 
       {isAuthenticated && (
         <>
-          <NavBar />
           <Layout />
         </>
       )}

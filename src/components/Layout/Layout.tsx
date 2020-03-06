@@ -1,10 +1,11 @@
 import React from 'react';
+import NavBar from '../NavBar/NavBar';
+import MainContent from '../MainContent/MainContent';
 
 const Layout = () => (
   <>
-    <div className="layout">
-      <p>Placeholder!</p>
-    </div>
+    <NavBar />
+    <MainContent />
   </>
 );
 
